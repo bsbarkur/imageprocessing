@@ -1,0 +1,26 @@
+1. Base color both in Hexadecimal & in color name format – Base color refers to the color in
+the center of the image – seen as the pixelwise center
+Base color - done
+Need to build the database parsed wikipedia link below to obtain the data - done
+map hex color and color name format from this and print the relevant base color in hex and name - pending
+
+2. Gradient, Hue, Saturation
+- Gradient - done (comes up as a window popup) - instead of that need to save the image drawn in matplot lib into the file
+- saturation / hue - same as above.
+
+3. Identify if any text is present – and read that text
+- text mining via tesseract - accuracy missing for some images
+
+4. Background color both in Hexadecimal & in color name format
+- done . need to map to the db in step 1.
+- Query: is background color, dominant color of the image ?
+
+5. An average color of the image (see also “avaerage color of an image”)
+- calculated the average of all pixels 
+- need to corelate against database
+
+This link was used for parsing the data for mapping db in database:
+http://en.wikipedia.org/wiki/List_of_colors_%28compact%29
+
+Interesting trivia I came across:
+http://developers.lyst.com/data/images/2014/02/22/color-detection/
